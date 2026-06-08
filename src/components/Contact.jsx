@@ -1,6 +1,6 @@
 import { Mail, Phone } from "lucide-react";
 
-export function ContactCards() {
+export function Contact() {
   return (
     <section className="py-12 md:py-16 px-4 sm:px-6 bg-[#F8FAF8]">
       <div

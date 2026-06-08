@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import FloatingWA from "../components/FloatingWA";
 import { Contact } from "../components/Contact";
 
+
 export default function Home() {
   return (
     <main className="relative bg-[#F8FAF8]">
