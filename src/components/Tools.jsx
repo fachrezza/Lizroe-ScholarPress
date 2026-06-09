@@ -24,11 +24,11 @@ export default function Tools() {
         {/* TITLE */}
         <div className="text-center mb-8">
           <p className="text-sm uppercase tracking-[0.3em] text-gray-400">
-            Trusted Platforms
+            PLATFORM TERPERCAYA
           </p>
 
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-2">
-            Supported & Optimized For
+            Didukung & Dioptimalkan Untuk
           </h2>
         </div>
 
