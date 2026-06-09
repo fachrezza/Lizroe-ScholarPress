@@ -2,6 +2,7 @@ import {
   ShieldCheck,
   Clock3,
   FileCheck2,
+  Wallet,
 } from "lucide-react";
 
 const items = [
@@ -19,6 +20,11 @@ const items = [
     icon: <FileCheck2 size={34} strokeWidth={2.2} />,
     title: "Pendampingan Profesional",
     desc: "Bantuan akademik yang disesuaikan dengan standar publikasi dan kebutuhan penelitian.",
+  },
+  {
+    icon: <Wallet size={34} strokeWidth={2.2} />,
+    title: "Harga Terjangkau",
+    desc: "Layanan berkualitas dengan harga yang fleksibel dan ramah untuk mahasiswa maupun peneliti.",
   },
 ];
 
@@ -60,7 +66,7 @@ export default function WhyChoose() {
             grid
             grid-cols-1
             sm:grid-cols-2
-            md:grid-cols-3
+            lg:grid-cols-4
             gap-6 sm:gap-8
             mt-12 sm:mt-20
           "
@@ -74,7 +80,7 @@ export default function WhyChoose() {
                 bg-white
                 border border-gray-200
                 rounded-2xl sm:rounded-[32px]
-                p-6 sm:p-10
+                p-6 sm:p-8
                 hover:-translate-y-1 sm:hover:-translate-y-2
                 hover:border-green-300
                 hover:shadow-[0_20px_60px_rgba(34,197,94,0.12)]
@@ -99,7 +105,7 @@ export default function WhyChoose() {
               </div>
 
               {/* TITLE */}
-              <h3 className="text-lg sm:text-2xl font-semibold text-gray-900 mt-5 sm:mt-8">
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mt-5 sm:mt-7">
                 {item.title}
               </h3>
 
