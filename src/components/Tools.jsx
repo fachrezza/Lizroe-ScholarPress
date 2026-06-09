@@ -54,8 +54,7 @@ export default function Tools() {
                 className="
                   h-10 md:h-12
                   object-contain
-                  grayscale
-                  hover:grayscale-0
+                  
                   transition
                 "
               />
