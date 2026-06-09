@@ -48,7 +48,7 @@ export default function WhyChoose() {
           </span>
 
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 mt-5 sm:mt-6">
-            Layanan Bantuan Akademik
+            Mengapa Klien Mempercayai Kami
             <br />
             Profesional
           </h2>
