@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import WAIcon from "../assets/wa.svg";
+import Logo from "../assets/logo.png"; // IMPORT LOGO
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -23,17 +24,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
 
         {/* LOGO */}
-        <a href="#hero" className="leading-tight">
-          <h1 className="text-xl sm:text-2xl md:text-3xl font-black text-gray-900">
-            Lizroe
-            <span className="bg-gradient-to-r from-green-500 to-emerald-400 bg-clip-text text-transparent ml-1">
-              ScholarPress
-            </span>
-          </h1>
-
-          <p className="text-[10px] sm:text-[11px] tracking-[0.3em] uppercase text-gray-400">
-            Academic Publishing
-          </p>
+        <a href="#hero" className="flex items-center">
+          <img
+            src={Logo}
+            alt="PublishMate Logo"
+            className="h-8 sm:h-10 md:h-12 w-auto object-contain rounded-4xl"
+          />
         </a>
 
         {/* DESKTOP NAV */}

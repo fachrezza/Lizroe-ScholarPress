@@ -7,6 +7,8 @@ import {
   BarChart3,
   Globe,
   BookOpenCheck,
+  BriefcaseBusiness,
+  ScrollText,
 } from "lucide-react";
 
 export const services = [
@@ -32,6 +34,30 @@ export const services = [
     title: "Jurnal Pengabdian",
     desc: "Bantuan publikasi jurnal pengabdian masyarakat untuk dosen dan mahasiswa.",
     icon: <BookOpenCheck size={20} />,
+  },
+
+  {
+    title: "Publikasi Mahasiswa S1",
+    desc: "Pendampingan publikasi artikel ilmiah dan tugas akhir mahasiswa S1.",
+    icon: <GraduationCap size={20} />,
+  },
+
+  {
+    title: "Publikasi Mahasiswa S2 & S3",
+    desc: "Pendampingan publikasi tesis, disertasi, dan jurnal internasional.",
+    icon: <FileText size={20} />,
+  },
+
+  {
+    title: "Pengurusan JAFUNG Dosen",
+    desc: "Bantuan dokumen dan syarat administrasi kenaikan jabatan fungsional dosen.",
+    icon: <BriefcaseBusiness size={20} />,
+  },
+
+  {
+    title: "Pengurusan Dokumen Akademik",
+    desc: "Pendampingan kelengkapan dokumen akademik dan administrasi publikasi.",
+    icon: <ScrollText size={20} />,
   },
 
   {
