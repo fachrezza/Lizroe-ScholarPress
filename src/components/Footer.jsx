@@ -13,7 +13,7 @@ export default function Footer() {
         <p className="text-gray-600 text-sm sm:text-base">
           © 2026{" "}
           <span className="font-semibold text-gray-900">
-            Lizroe ScholarPress
+            Publish Mate
           </span>
           . All rights reserved.
         </p>
