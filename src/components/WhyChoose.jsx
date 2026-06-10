@@ -48,9 +48,9 @@ export default function WhyChoose() {
           </span>
 
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 mt-5 sm:mt-6">
-            Mengapa Klien Mempercayai
+            Mengapa Klien 
             <br />
-            Kami
+            <span className="block text-green-600">Mempercayai Kami</span>
           </h2>
 
           <p className="text-gray-600 mt-4 sm:mt-6 max-w-2xl mx-auto leading-relaxed text-sm sm:text-lg px-2 sm:px-0">

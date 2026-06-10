@@ -7,6 +7,8 @@ import Footer from "../components/Footer";
 import FloatingWA from "../components/FloatingWA";
 import { Contact } from "../components/Contact";
 import Tools from "../components/Tools";
+import About from "../components/About";
+import Workflow from "../components/Workflow";
 
 
 export default function Home() {
@@ -15,7 +17,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Tools />
+      <About />
       <Services />
+      <Workflow />
       <WhyChoose />
       <CTA />
       <Contact />
